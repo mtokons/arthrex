@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "arthrex-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/arthrex/ArthrexWebPart.js",
+          "manifest": "./src/webparts/arthrex/ArthrexWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ArthrexWebPartStrings": "lib/webparts/arthrex/loc/{locale}.js"
+  }
+}
